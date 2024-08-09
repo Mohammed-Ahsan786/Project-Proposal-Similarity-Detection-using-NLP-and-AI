@@ -1,0 +1,17 @@
+services:
+  db:
+    # build image of database from Dockerfile
+    build: ./database
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      # admin credentials
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin1234
+      POSTGRES_DB: projectDB
+    ports:
+      # Expose the DB server (running at port 5432 of container) to post 5432 of host machinr
+      - "5432:5432"
+volumes:
+  # docker will automatically assign the volume and manage it to persist the data in DB
+  postgres_data:

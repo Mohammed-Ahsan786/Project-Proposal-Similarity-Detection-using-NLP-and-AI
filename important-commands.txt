@@ -1,0 +1,99 @@
+-------------------------------------------------------------------------------------------
+
+DOCKER
+
+Build Docker Image:
+docker build -t my-image-name .
+
+Run Docker Container:
+docker run -d --name my-container-name -p 5432:5432 my-image-name
+
+List Running Containers:
+docker ps
+
+Stop Docker Container:
+docker stop my-container-name
+
+Remove Docker Container:
+docker rm my-container-name
+
+View Container Logs:
+docker logs my-container-name
+
+Add terminal to Running docker container
+docker exec -it conatner_name bash | sh
+
+-------------------------------------------------------------------------------------------
+
+Docker Compose
+
+Start Containers:
+docker-compose up
+
+Start Containers in Detached Mode:
+docker-compose up -d
+
+Stop Containers:
+docker-compose down (-v for removing the volumes, container and image)
+
+Rebuild Containers:
+docker-compose up --build
+
+View Logs for All Containers:
+docker-compose logs
+
+-------------------------------------------------------------------------------------------
+
+PostgreSQL (psql)
+
+Connect to PostgreSQL Database:
+psql -U admin -d projectDB
+
+List Schemas:
+SELECT schema_name FROM information_schema.schemata;
+
+Switch Schema:
+SET search_path TO schema_name;
+
+Show Schema:
+SHOW search_path;
+
+List Tables in Schema:
+\dt schema_name.*;
+
+Execute SQL Script:
+psql -U admin -d projectDB -f /path/to/script.sql
+
+Check PostgreSQL Version:
+SELECT version();
+
+-------------------------------------------------------------------------------------------
+
+Linux System Commands
+
+View Disk Usage:
+df -h
+
+View Running Processes:
+top
+
+Check Memory Usage:
+free -m
+
+View Active Network Connections:
+netstat -tuln
+
+-------------------------------------------------------------------------------------------
+
+File and Directory Commands
+
+List Files in Directory:
+ls -l
+
+View File Content:
+cat filename.txt
+
+Edit File:
+nano filename.txt
+
+-------------------------------------------------------------------------------------------
