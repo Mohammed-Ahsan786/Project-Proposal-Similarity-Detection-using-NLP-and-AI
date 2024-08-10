@@ -43,7 +43,7 @@ CREATE TABLE project_db.projects (
     project_id SERIAL PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
     abstract TEXT NOT NULL,
-    category VARCHAR(100) NOT NULL,
+    category VARCHAR(300) NOT NULL,
     group_id INT NOT NULL,
     status VARCHAR(50) DEFAULT 'pending' NOT NULL,
     FOREIGN KEY (group_id) REFERENCES project_db.groups(group_id) ON DELETE CASCADE,
