@@ -1,34 +1,39 @@
-# Project Proposal Similarity Detection System
+# Project Proposal Similarity Detection using NLP and AI
 
-## Overview
+> **Abstract** : In this project student has to find the similarity in the submitted projects by students on the Title and Abstract. The students submit their project ideas to the system. The system then check the title and abstract with previously submitted projects in the system. The main aim of the project is to avoid repetition of the projects. Based on the set threshold the system should automatically reject the proposal if there is high similarity with any of the previous projects. As a future scope this project maybe extented to the patent application process to make the patent application process efficient.
 
-This project is designed to identify and prevent duplicate project proposals submitted by students. By analyzing the titles and abstracts of new project submissions, the system compares them against previously submitted projects. If the similarity score exceeds a predefined threshold, the proposal is automatically rejected to avoid redundancy.
+### Project Members
+1. MISHRA ADITYA SHYAMANAND  [ Team Leader ] 
+2. ANSARI MOHMED  AHSAN AMJAD ALI HASAN RAZA 
+3. PANDEY ROHITKUMAR BRAHMDEO 
+4. SHAIKH DIDAR ABBAS WASI AHMAD 
 
-## Features
+### Project Guides
+1. PROF. SHIBURAJ PAPPU  [ Primary Guide ] 
 
-- **Project Submission**: Students can submit their project ideas, including titles and abstracts.
-- **Similarity Detection**: The system compares new submissions with existing projects to identify potential duplicates.
-- **Automatic Rejection**: Proposals with high similarity to existing projects are automatically rejected based on a set threshold.
-- **Future Scope**: Potential extensions include adapting this system for patent application processes to enhance efficiency.
+### Deployment Steps
+Please follow the below steps to run this project.
+1. Open collab file.
+2. Load Projects.csv file.
+3. Enter Title and Abstract which similarity needs to be checked.
+4. Exexcute. 
 
-## Installation
+### Subject Details
+- Class : BE (COMP) Div A - 2024-2025
+- Subject : Major Project 1 (MajPrj-1)
+- Project Type : Major Project
 
-Instructions for setting up the project will be provided in future updates.
-
-## Usage
-
-Basic usage instructions will be added as development progresses. Initially, the system will focus on comparing and rejecting duplicate project proposals.
-
-## Development
-
-As development continues, detailed documentation will be added, including setup instructions, API details, and usage examples.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For questions or further information, please reach out to [adityamishra9124@gmail.com](mailto:adityamishra9124@gmail.com).
+### Platform, Libraries and Frameworks used
+1. [Python](https://www.python.org)
+2. [pandas](https://pandas.pydata.org)
+3. [PrettyTable](https://pypi.org/project/PrettyTable)
+4. [Sentence-Transformers](https://www.sbert.net)
+5. [scikit-learn](https://scikit-learn.org)
 
 
+### Dataset Used
+1. [Project.csv]([https://kaggle.com/dataset1](https://github.com/Mohammed-Ahsan786/Project-Proposal-Similarity-Detection-using-NLP-and-AI/blob/main/projects.csv))
+
+### References
+- [Sentence-Transformers](https://www.sbert.net)
+- [scikit-learn](https://scikit-learn.org)
