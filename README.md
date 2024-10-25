@@ -32,7 +32,7 @@ Please follow the below steps to run this project.
 
 
 ### Dataset Used
-1. [Project.csv]([https://kaggle.com/dataset1](https://github.com/Mohammed-Ahsan786/Project-Proposal-Similarity-Detection-using-NLP-and-AI/blob/main/projects.csv))
+1. [Project.csv](https://github.com/Mohammed-Ahsan786/Project-Proposal-Similarity-Detection-using-NLP-and-AI/blob/main/projects.csv)
 
 ### References
 - [Sentence-Transformers](https://www.sbert.net)
